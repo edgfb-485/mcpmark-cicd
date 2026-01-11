@@ -1,9 +1,6 @@
-// This file has intentional linting errors
-const unusedVariable = "I'm unused";
-
+// This file has fixed linting errors
 function exampleFunction() {
-  console.log("This is a console log");
-  return "missing semicolon"
+  return "fixed semicolon";
 }
 
-console.log("Another console log");
+exampleFunction();
